@@ -1,0 +1,15 @@
+.marker>div {
+    border-radius: 50%;
+    background-color:black;
+    box-sizing: border-box;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition:transform .3s;
+}
+.marker>div:hover {
+    transform:scale(1.1);
+}
