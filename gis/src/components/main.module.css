@@ -14,12 +14,21 @@
     z-index:1000;
     position:absolute;
     padding:15px 30px;
-    top:15px;
+    bottom:15px;
     color:white;
     background-color:rgba(0,0,0,.3);
     border-radius: 10px;
     backdrop-filter: blur(5px);
 }
-.sidebar:local {
+/* .sidebar:local {
     animation: appear .3s cubic-bezier(.2,.91,.76,1.67);
+} */
+
+input {
+    background-color:transparent;
+    color:white;
+}
+
+label {
+    font-size:12px;
 }
