@@ -7,8 +7,8 @@ const Accident = ({ children, position }) => {
     let icon = L.divIcon({
         className: css.marker,
         html: `<div></div>`,
-        iconSize: [10, 10],
-        iconAnchor: [5, 5],
+        iconSize: [12, 12],
+        iconAnchor: [6, 6],
     })
     return <Marker
         icon={icon}
