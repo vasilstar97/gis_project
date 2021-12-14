@@ -1,15 +1,20 @@
-import { makeAutoObservable } from "mobx";
-import AccidentStore from './accidentStore';
-import GridStore from "./gridStore";
+import { makeAutoObservable, toJS } from "mobx";
 
 class MainStore {
-    accidentStore = null
-    gridStore = null
+    cluster = null
+
+    get selectedCluster() {
+        return toJS(this.cluster);
+    }
+
+    setSelectedCluster(cluster) {
+        console.log(cluster, this.cluster)
+        if (this.cluster && this.cluster.polygon.properties.id === cluster.polygon.properties.id) this.cluster = null;
+        else this.cluster = cluster;
+    }
 
     constructor() {
         makeAutoObservable(this);
-        this.accidentStore = new AccidentStore(this);
-        this.gridStore = new GridStore(this);
     }
 }
 
