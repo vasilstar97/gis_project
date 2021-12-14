@@ -1,4 +1,25 @@
+@keyframes appear {
+  from {transform:translateY(-100%)}
+  to {transform:translateY(0)}
+}
+
 .wrapper {
     background-color:white;
     height:100vh;
+    position:relative;
+}
+
+.sidebar {
+    width:300px;
+    z-index:1000;
+    position:absolute;
+    padding:15px 30px;
+    top:15px;
+    color:white;
+    background-color:rgba(0,0,0,.3);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+.sidebar:local {
+    animation: appear .3s cubic-bezier(.2,.91,.76,1.67);
 }
