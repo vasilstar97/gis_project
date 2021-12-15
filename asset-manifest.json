@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gis_project/static/css/main.c66332d6.chunk.css",
+    "main.js": "/gis_project/static/js/main.8d3dd1fb.chunk.js",
+    "main.js.map": "/gis_project/static/js/main.8d3dd1fb.chunk.js.map",
+    "runtime-main.js": "/gis_project/static/js/runtime-main.bf30728a.js",
+    "runtime-main.js.map": "/gis_project/static/js/runtime-main.bf30728a.js.map",
+    "static/css/2.399b66be.chunk.css": "/gis_project/static/css/2.399b66be.chunk.css",
+    "static/js/2.aeae1937.chunk.js": "/gis_project/static/js/2.aeae1937.chunk.js",
+    "static/js/2.aeae1937.chunk.js.map": "/gis_project/static/js/2.aeae1937.chunk.js.map",
+    "static/js/3.5ca52a02.chunk.js": "/gis_project/static/js/3.5ca52a02.chunk.js",
+    "static/js/3.5ca52a02.chunk.js.map": "/gis_project/static/js/3.5ca52a02.chunk.js.map",
+    "index.html": "/gis_project/index.html",
+    "static/css/2.399b66be.chunk.css.map": "/gis_project/static/css/2.399b66be.chunk.css.map",
+    "static/css/main.c66332d6.chunk.css.map": "/gis_project/static/css/main.c66332d6.chunk.css.map",
+    "static/js/2.aeae1937.chunk.js.LICENSE.txt": "/gis_project/static/js/2.aeae1937.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf30728a.js",
+    "static/css/2.399b66be.chunk.css",
+    "static/js/2.aeae1937.chunk.js",
+    "static/css/main.c66332d6.chunk.css",
+    "static/js/main.8d3dd1fb.chunk.js"
+  ]
+}
